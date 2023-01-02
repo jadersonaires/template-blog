@@ -1,7 +1,7 @@
-import { Header } from './components/Header'
+import { JoinHeaderFeatured } from './components/JoinHeaderFeatured'
 
 export function App() {
 	return (
-		<Header />
+		<JoinHeaderFeatured />
 	)
 }
