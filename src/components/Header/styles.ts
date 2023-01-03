@@ -29,7 +29,7 @@ export const HeaderContainer = styled.header`
 					font-size: 1.125rem;
 					color: ${props => props.theme['white-900']};
 					text-decoration: none;
-					border-left: 2px solid transparente;
+					border-left: 2px solid transparent;
 					padding-left: 3px;
 					transition: font-weight 300ms;
 
