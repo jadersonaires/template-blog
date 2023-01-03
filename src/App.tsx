@@ -1,13 +1,9 @@
-import { GroupNews } from './components/GroupNews'
-import { JoinHeaderFeatured } from './components/JoinHeaderFeatured'
-import { News } from './components/News'
+import { Home } from './pages/Home'
 
 export function App() {
 	return (
 		<>
-			<JoinHeaderFeatured />
-			<News />
-			<GroupNews />
+			<Home />
 		</>
 	)
 }

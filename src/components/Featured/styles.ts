@@ -2,10 +2,11 @@ import styled from 'styled-components'
 
 export const FeaturedContainer = styled.main`
 	margin: 0 auto;
-	max-width: 73.125rem;
+	width: 100%;
+	padding: 0 0.9rem;
 
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	column-gap: 1.875rem;
 
 	h1 {
@@ -51,7 +52,18 @@ export const FeaturedContainer = styled.main`
 			width: 100%;
 			height: 100%;
 			max-height: 340px;
-			border-radius: 8px;
+			border-radius: 16px;
 		}
+	}
+
+	@media (min-width: 460px) {}
+
+	@media (min-width: 768px) {
+		max-width: 73.125rem;
+		padding: 0 0rem;
+
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 6rem;
 	}
 `

@@ -3,10 +3,11 @@ import styled from 'styled-components'
 
 export const HeaderContainer = styled.header`
 	margin: 0rem auto 4rem;
-	max-width: 73.125rem;
+	width: 100%;
+	padding: 0 .9rem;
 
 	display: grid;
-	grid-template-columns: 25% 1fr 25%;
+	grid-template-columns: 1fr;
 	grid-auto-rows: minmax(44px, auto);
 
 	align-items: center;
@@ -15,7 +16,7 @@ export const HeaderContainer = styled.header`
 	nav {
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: start;
 
 		ul {
 			list-style-type: none;
@@ -72,6 +73,23 @@ export const HeaderContainer = styled.header`
 			&:hover{
 				background: ${props => props.theme['purple-800']};
 			}
+		}
+	}
+
+	@media (min-width: 460px) {}
+
+	@media (min-width: 768px) {
+		max-width: 73.125rem;
+		padding: 0 0rem;
+
+		display: grid;
+		grid-template-columns: 25% 1fr 25%;
+		grid-auto-rows: minmax(44px, auto);
+
+		align-items: center;
+
+		nav {
+			justify-content: center;
 		}
 	}
 `

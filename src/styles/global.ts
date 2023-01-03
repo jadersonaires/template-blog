@@ -12,6 +12,16 @@ export const GlobalStyle = createGlobalStyle`
 		box-shadow: 0 0 0 2px ${props => props.theme['purple-700']};
 	}
 
+	::-moz-selection { /* Code for Firefox */
+		color: ${props => props.theme['white-900']};
+		background: ${props => props.theme['purple-700']};
+	}
+
+	::selection {
+		color: ${props => props.theme['white-900']};
+		background: ${props => props.theme['purple-700']};
+	}
+
 	body {
 		font-family: 'Roboto', sans-serif;
 		background: ${props => props.theme['white-900']};
