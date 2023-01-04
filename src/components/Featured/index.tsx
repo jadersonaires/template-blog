@@ -8,7 +8,7 @@ export function Featured() {
 		<FeaturedContainer>
 			<div>
 				<h1>
-					Veja o guia definitivo para conquistar seus objetivos como DEV em 2022
+					Veja o guia definitivo para a conquistar seus objetivos como DEV em 2022
 				</h1>
 
 				<p>

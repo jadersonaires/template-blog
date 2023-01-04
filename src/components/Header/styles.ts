@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 
 export const HeaderContainer = styled.header`
-	margin: 0rem auto 4rem;
+	margin: 0rem auto 2rem;
 	width: 100%;
 	padding: 0 .9rem;
 
@@ -79,6 +79,7 @@ export const HeaderContainer = styled.header`
 	@media (min-width: 460px) {}
 
 	@media (min-width: 768px) {
+		margin: 0rem auto 4rem;
 		max-width: 73.125rem;
 		padding: 0 0rem;
 
