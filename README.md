@@ -12,6 +12,4 @@ Criando o template como esta desenhado no figma. O projeto tem apenas a pagina d
 
 ## Screenshots
 
-![Homo full](./src/assets/screenshots/home-screen.png)
-
-![Home mobile](./src/assets/screenshots/home-mobile-screen.png)
+![Home full](./src/assets/screenshots/home-screen.png)
